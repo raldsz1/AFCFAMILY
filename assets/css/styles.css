@@ -9,6 +9,7 @@
   --first-color-dark: #996533;
   --first-color-darken: #996533;
   --white-color: #FCF8F8;
+  --dark-color: #727272;
   
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
@@ -244,14 +245,14 @@ img{
     width: 604px;
   }
   .footer{
-    background-color: var(--first-color);
+    background-color: var(--dark-color);
 }
 .footer__container{
     row-gap: 2rem;
 }
 .footer__title{
     font-size: var(--normal-font-size);
-    color: var(--first-color-dark);
+    color: var(--dark-color);
     margin-bottom: var(--mb-2);
 }
 .footer__link{
