@@ -267,10 +267,7 @@ img{
 .footer__social:hover{
     color: var(--first-color);
 }
-      }
-
     .footer__container{
         grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
-    }
+       justify-items: center;
 }
